@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+
+}
+.nav-link{
+   color: aliceblue;
+   margin: 1rem;
+   text-decoration: none;
+   font-size: xx-large;
+   font-style: oblique;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link:hover{
+
+color: chocolate;
+
+}
+nav.active{
+    color: crimson;
+}

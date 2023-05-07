@@ -1,0 +1,139 @@
+/* Style the row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* Create two equal columns that sits next to each other */
+.leftcolumn, .rightcolumn {
+  flex: 50%;
+  padding: 0 15px;
+}
+
+/* Style the cards */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Add styles to the card title and date */
+.card h2 {
+  margin-top: 0;
+}
+
+.card h5 {
+  color: #bbb;
+}
+
+/* Add a fake image */
+.fa {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-image: url(/public/img/download.jpg);
+  background-repeat: no-repeat;
+
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  
+  background-repeat: no-repeat;
+}
+/* Add styles to the footer */
+.footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add styles to the input and button */
+.job-portal__input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.job-portal__button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-portal__button:hover {
+  background-color: #45a049;
+}
+
+/* Add styles to the job portal title and subtitle */
+.job-portal__title {
+  font-size: 36px;
+  margin: 0;
+}
+
+.job-portal__subtitle {
+  font-size: 24px;
+  margin: 0;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 16px;
+}
+
+.form-control label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-control input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
